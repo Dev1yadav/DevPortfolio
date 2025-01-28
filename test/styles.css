@@ -1,0 +1,14 @@
+.hover-text {
+    font-size: 24px;
+    color: black;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.hover-text:hover {
+    color: #f0e68c; /* light yellow color */
+    text-shadow: 
+        0 0 10px rgba(255, 255, 200, 0.8), /* outer glow */
+        0 0 20px rgba(255, 255, 200, 1),   /* stronger light */
+        0 0 30px rgba(255, 255, 200, 1);   /* extra strong light */
+    cursor: pointer; /* makes the cursor a pointer */
+}
